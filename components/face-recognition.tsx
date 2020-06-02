@@ -35,7 +35,7 @@ var detectedFaces = async (imagePath : string) : Promise<Number |undefined> => {
         FileSystem.deleteAsync(photo.uri);
         if(cameraFaceID == authFaceID)
         {
-          //navigation.navigate('grpc',{adress : tempAdress});
+          navigation.navigate('grpc',{adress : tempAdress});
         }
         else
           alert("Faces not matched!");
