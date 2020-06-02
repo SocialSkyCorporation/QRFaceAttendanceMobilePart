@@ -22,7 +22,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.cattendance.qrfaceattendance",
+      "googleServicesFile": "./GoogleService-Info.plist"
     }
   }
 }
